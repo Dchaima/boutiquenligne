@@ -1,0 +1,95 @@
+[STEP] [2023-06-12 09:06:33] Recherche du fichier exécutable PHP CLI.
+[WARN] [2023-06-12 09:06:33] Impossible de trouver l’exécutable PHP CLI approprié, ce processus peut être instable.
+[WARN] [2023-06-12 09:06:33] Le fichier PHP CLI ne peut pas être exécuté pour une raison inconnue.
+[STEP] [2023-06-12 09:06:33] Initialisation de la sauvegarde…
+[INFO] [2023-06-12 09:06:33] Version de sauvegarde et migration :1.2.9
+[INFO] [2023-06-12 09:06:33] Site qui sera sauvegardé :http://localhost/wordpress
+[INFO] [2023-06-12 09:06:33] Version PHP : 8.0.28
+[INFO] [2023-06-12 09:06:33] Version WP :6.2.2
+[INFO] [2023-06-12 09:06:33] Version MySQL :10.4.28
+[INFO] [2023-06-12 09:06:33] Longueur maximale de MySQL :1048576
+[INFO] [2023-06-12 09:06:33] Serveur : Apache/2.4.56 (Win64) OpenSSL/1.1.1t PHP/8.0.28
+[INFO] [2023-06-12 09:06:33] Temps d’exécution maximum (en secondes) : 120
+[INFO] [2023-06-12 09:06:33] Memory limit (server): 512M
+[INFO] [2023-06-12 09:06:33] Memory limit (wp-config): 40M
+[INFO] [2023-06-12 09:06:33] Memory limit (wp-config admin): 512M
+[INFO] [2023-06-12 09:06:33] Nombre maximum de lignes par requête (ce site) : 2000
+[INFO] [2023-06-12 09:06:33] Vérifier si le répertoire de sauvegarde est inscriptible…
+[INFO] [2023-06-12 09:06:33] Initialisation du gestionnaire d’erreurs personnalisé
+[SUCCESS] [2023-06-12 09:06:33] Ouais c’est inscriptible…
+[STEP] [2023-06-12 09:06:33] Analyse des fichiers…
+[STEP] [2023-06-12 09:06:34] Vérification de l’espace libre, réservation…
+[INFO] [2023-06-12 09:06:34] Nécessite au moins 180505315 octets. [172.14 MB]
+[INFO] [2023-06-12 09:06:34] La fonction d‘espace libre sur le disque n‘est pas désactivée - l‘utiliser...
+[INFO] [2023-06-12 09:06:34] Vérification de chemin/partition : C:\xampp\htdocs\wordpress\wp-content\backup-migration-QRBglrOwxV\backups
+[SUCCESS] [2023-06-12 09:06:34] Il y a 62,043.01 Mo gratuit. [60.59 GB]
+[SUCCESS] [2023-06-12 09:06:34] Super ! Il y a suffisamment d’espace.
+[SUCCESS] [2023-06-12 09:06:34] Confirmé, il y a suffisamment d’espace, vérifié :180505315 octets
+[INFO] [2023-06-12 09:06:34] Analyse terminée - Trouvé2251 fichiers…
+[SUCCESS] [2023-06-12 09:06:34] Sauvegarde initialisée…
+[STEP] [2023-06-12 09:06:34] Initialisation du système d’archivage…
+[SUCCESS] [2023-06-12 09:06:34] Système d’archivage initialisé…
+[STEP] [2023-06-12 09:06:34] Préparation de la carte des fichiers…
+[SUCCESS] [2023-06-12 09:06:34] Fichiers préparés.
+[INFO] [2023-06-12 09:06:34] Démarrage da la procédure de compression…
+[STEP] [2023-06-12 09:06:34] Calcul de la mémoire intelligente…
+[INFO] [2023-06-12 09:06:34] Il y a 512 Mo de mémoire utile
+[INFO] [2023-06-12 09:06:34] Limite de mémoire WordPress : 512 Mo
+[SUCCESS] [2023-06-12 09:06:34] Définir la limite de sécurité à 115 Mo
+[INFO] [2023-06-12 09:06:34] Utilisation du module PclZip pour créer la sauvegarde
+[INFO] [2023-06-12 09:06:34] Réglage hérité : utilisation de modules par défaut en fonction du serveur utilisateur/utilisatrice
+[STEP] [2023-06-12 09:06:34] Making database backup (using v3 engine, requires at least v1.2.2 to restore)
+[INFO] [2023-06-12 09:06:34] Itération de la base de données…
+[INFO] [2023-06-12 09:06:34] Memory usage after initialization: 47.44 MB
+[INFO] [2023-06-12 09:06:34] Scan found 13 tables (528 rows), estimated total size: 2.8 MB.
+[INFO] [2023-06-12 09:06:34] Memory usage after getting table names: 47.44 MB 
+[INFO] [2023-06-12 09:06:34] Getting table recipes...
+[INFO] [2023-06-12 09:06:34] Table recipes have been exported.
+[INFO] [2023-06-12 09:06:34] Memory usage after loading recipes: 47.45 MB 
+[INFO] [2023-06-12 09:06:34] Saving recipes...
+[INFO] [2023-06-12 09:06:34] Recipes saved.
+[INFO] [2023-06-12 09:06:34] Memory usage after recipe off-load: 47.45 MB
+[INFO] [2023-06-12 09:06:34] Exporting table data...
+[STEP] [2023-06-12 09:06:34] Getting data of table: wp_commentmeta (1/13, 0.05 MB)
+[INFO] [2023-06-12 09:06:34] Table wp_commentmeta is empty, saving only recipe.
+[STEP] [2023-06-12 09:06:34] Getting data of table: wp_comments (2/13, 0.09 MB)
+[SUCCESS] [2023-06-12 09:06:34] Table export for: wp_comments finished (0.00195s)
+[STEP] [2023-06-12 09:06:34] Getting data of table: wp_duplicator_packages (3/13, 0.03 MB)
+[INFO] [2023-06-12 09:06:34] Table wp_duplicator_packages is empty, saving only recipe.
+[STEP] [2023-06-12 09:06:34] Getting data of table: wp_links (4/13, 0.03 MB)
+[INFO] [2023-06-12 09:06:34] Table wp_links is empty, saving only recipe.
+[STEP] [2023-06-12 09:06:34] Getting data of table: wp_options (5/13, 2.06 MB)
+[SUCCESS] [2023-06-12 09:06:34] Table export for: wp_options finished (0.02904s)
+[STEP] [2023-06-12 09:06:34] Getting data of table: wp_postmeta (6/13, 0.11 MB)
+[SUCCESS] [2023-06-12 09:06:34] Table export for: wp_postmeta finished (0.01045s)
+[STEP] [2023-06-12 09:06:34] Getting data of table: wp_posts (7/13, 0.14 MB)
+[SUCCESS] [2023-06-12 09:06:34] Table export for: wp_posts finished (0.01485s)
+[STEP] [2023-06-12 09:06:34] Getting data of table: wp_term_relationships (8/13, 0.03 MB)
+[SUCCESS] [2023-06-12 09:06:34] Table export for: wp_term_relationships finished (0.00169s)
+[STEP] [2023-06-12 09:06:34] Getting data of table: wp_term_taxonomy (9/13, 0.05 MB)
+[SUCCESS] [2023-06-12 09:06:34] Table export for: wp_term_taxonomy finished (0.00177s)
+[STEP] [2023-06-12 09:06:34] Getting data of table: wp_termmeta (10/13, 0.05 MB)
+[INFO] [2023-06-12 09:06:34] Table wp_termmeta is empty, saving only recipe.
+[STEP] [2023-06-12 09:06:34] Getting data of table: wp_terms (11/13, 0.05 MB)
+[SUCCESS] [2023-06-12 09:06:34] Table export for: wp_terms finished (0.00184s)
+[STEP] [2023-06-12 09:06:34] Getting data of table: wp_usermeta (12/13, 0.05 MB)
+[SUCCESS] [2023-06-12 09:06:34] Table export for: wp_usermeta finished (0.00221s)
+[STEP] [2023-06-12 09:06:34] Getting data of table: wp_users (13/13, 0.06 MB)
+[SUCCESS] [2023-06-12 09:06:34] Table export for: wp_users finished (0.00131s)
+[INFO] [2023-06-12 09:06:34] Table data exported.
+[INFO] [2023-06-12 09:06:34] Memory usage after data export: 47.43 MB
+[INFO] [2023-06-12 09:06:34] Entire process took: 0.0980 s
+[SUCCESS] [2023-06-12 09:06:34] Sauvegarde de base de données terminée
+[STEP] [2023-06-12 09:06:34] Faire une archive
+[INFO] [2023-06-12 09:06:34] Compression…
+[WARN] [2023-06-12 09:06:34] La sauvegarde s’exécutera en tant que demande unique, peut être instable...
+[STEP] [2023-06-12 09:06:34] Adding database SQL file(s) to the backup file.
+[SUCCESS] [2023-06-12 09:06:34] Database added to the backup successfully.
+[STEP] [2023-06-12 09:06:34] Performing site files backup...
+[INFO] [2023-06-12 09:06:34] Les portions contiennent 250 fichiers.
+[INFO] [2023-06-12 09:06:34] Étape :500/2251
+[INFO] [2023-06-12 09:06:35] Étape :1000/2251
+[INFO] [2023-06-12 09:06:36] Étape :1500/2251
+[INFO] [2023-06-12 09:06:38] Étape :2000/2251
+[WARN] [2023-06-12 09:06:38] Procédure de sauvegarde interrompue.
+[END-CODE] [2023-06-12 09:06:38] #002

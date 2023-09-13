@@ -1,0 +1,73 @@
+********************************************************************************
+DUPLICATOR-LITE PACKAGE-LOG: 20 June 2023 17h30
+NOTICE: Do NOT post to public sites or forums 
+********************************************************************************
+VERSION:	1.5.4
+WORDPRESS:	6.2.2
+PHP INFO:	8.0.28 | SAPI: apache2handler
+SERVER:		Apache/2.4.56 (Win64) OpenSSL/1.1.1t PHP/8.0.28 
+PHP TIME LIMIT: (0) no time limit imposed 
+PHP MAX MEMORY: 4294967296 (512M default) 
+MEMORY STACK: 156MB
+
+********************************************************************************
+DATABASE:
+********************************************************************************
+BUILD MODE:   MYSQLDUMP
+MYSQLTIMEOUT: 5000
+MYSQLDUMP:    Is Supported
+SQL CREATED: 20230612_wordpress_35e489c6b4fd09317394_20230620172933_database.sql
+SQL FILE SIZE: 4.05MB (4246994)
+SQL FILE TIME: 2023-06-20 17:30:49
+SQL RUNTIME: 10.62 sec.
+
+********************************************************************************
+ARCHIVE (ZIP):
+********************************************************************************
+ARCHIVE DIR:  C:/xampp/htdocs/wordpress
+ARCHIVE FILE: 20230612_wordpress_35e489c6b4fd09317394_20230620172933_archive.zip
+FILTERS: *OFF*
+DIRS:
+	not set
+FILES:
+	not set
+EXTS:  not set
+----------------------------------------
+COMPRESSING
+SIZE:	389.42MB
+STATS:	Dirs 4,060 | Files 24,299
+SQL ADDED: 20230612_wordpress_35e489c6b4fd09317394_20230620172933_database.sql
+ZipArchive Object
+(
+    [lastId] => 28358
+    [status] => 0
+    [statusSys] => 0
+    [numFiles] => 28359
+    [filename] => C:\xampp\htdocs\wordpress\wp-content\backups-dup-lite\tmp\20230612_wordpress_35e489c6b4fd09317394_20230620172933_archive.zip
+    [comment] => 
+)
+
+FILE ADDED TO ZIP: 28358
+COMPRESSION RESULT: '1'
+COMPRESSED SIZE: 203.69MB
+ARCHIVE RUNTIME: 62.08 sec.
+MEMORY STACK: 162MB
+building installer
+ARCHIVE CONSISTENCY TEST: PASS
+
+********************************************************************************
+INTEGRITY CHECKS:
+********************************************************************************
+SQL FILE: 4.05MB
+INSTALLER FILE: 73.35KB
+ARCHIVE FILE: 205.97MB 
+COMPTE ATTENDU DE FICHIERS/RÉPERTOIRES : 28,359
+COMPTE ACTUEL DE FICHIERS/RÉPERTOIRES : 28,358
+TEST DE COHÉRENCE D’ARCHIVE : Bon
+
+********************************************************************************
+RECORD ID:[3]
+TOTAL PROCESS RUNTIME: 78.84 sec.
+PEAK PHP MEMORY USED: 168MB
+DONE PROCESSING => 20230612_wordpress 20 June 2023 17h31
+
